@@ -1,0 +1,37 @@
+NIDS-ML Selected Features
+======================================================================
+Total Selected Features: 30
+Selection Method: Random Forest Feature Importance
+Selection fitted ONLY on training data
+======================================================================
+
+1. Average_Packet_Size
+2. Bwd_Packet_Length_Std
+3. Bwd_Packet_Length_Mean
+4. Packet_Length_Variance
+5. Packet_Length_Mean
+6. Destination_Port
+7. Max_Packet_Length
+8. Avg_Bwd_Segment_Size
+9. Total_Length_of_Bwd_Packets
+10. Fwd_Packet_Length_Max
+11. Bwd_Packet_Length_Max
+12. Packet_Length_Std
+13. Fwd_Packet_Length_Mean
+14. Avg_Fwd_Segment_Size
+15. Init_Win_bytes_forward
+16. Init_Win_bytes_backward
+17. Fwd_Header_Length.1
+18. Fwd_Packet_Length_Min
+19. Total_Length_of_Fwd_Packets
+20. Subflow_Fwd_Bytes
+21. Total_Fwd_Packets
+22. Subflow_Bwd_Bytes
+23. Bwd_Header_Length
+24. Subflow_Fwd_Packets
+25. ACK_Flag_Count
+26. Flow_IAT_Mean
+27. Flow_IAT_Std
+28. Bwd_Packet_Length_Min
+29. URG_Flag_Count
+30. Fwd_Header_Length

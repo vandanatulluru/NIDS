@@ -1,0 +1,51 @@
+======================================================================
+FINAL NIDS MODEL VALIDATION REPORT
+======================================================================
+
+BINARY ATTACK DETECTION
+--------------------------------------------------
+Accuracy : 0.8311
+Precision: 0.1667
+Recall   : 0.0000
+F1 Score : 0.0000
+ROC-AUC  : 0.7646
+
+Confusion Matrix:
+[[419287     10]
+ [ 85174      2]]
+
+
+MULTICLASS ATTACK CLASSIFICATION
+--------------------------------------------------
+Accuracy       : 0.9994
+Macro Precision: 0.9126
+Macro Recall   : 0.9030
+Macro F1       : 0.9072
+Weighted F1    : 0.9994
+
+Per-Attack Classification Report:
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.00      0.00      0.00         0
+                       Bot       1.00      1.00      1.00       396
+                      DDoS       1.00      1.00      1.00     25632
+             DoS GoldenEye       1.00      1.00      1.00      2003
+                  DoS Hulk       1.00      1.00      1.00     34648
+          DoS Slowhttptest       1.00      1.00      1.00       970
+             DoS slowloris       1.00      1.00      1.00      1107
+               FTP-Patator       1.00      1.00      1.00      1136
+              Infiltration       1.00      0.83      0.91         6
+                  PortScan       1.00      1.00      1.00     18211
+               SSH-Patator       1.00      1.00      1.00       640
+  Web Attack � Brute Force       0.95      0.93      0.94       310
+Web Attack � Sql Injection       1.00      1.00      1.00         3
+          Web Attack � XSS       0.83      0.89      0.86       114
+
+                  accuracy                           1.00     85176
+                 macro avg       0.91      0.90      0.91     85176
+              weighted avg       1.00      1.00      1.00     85176
+
+
+======================================================================
+VALIDATION COMPLETED
+======================================================================

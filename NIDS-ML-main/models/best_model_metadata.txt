@@ -1,0 +1,11 @@
+BEST MODEL
+==================================================
+
+Model: Random Forest
+Accuracy: 0.999060
+Precision: 0.995797
+Recall: 0.998650
+F1 Score: 0.997222
+ROC-AUC: 0.999790
+Training Samples: 2017889
+Number of Features: 30

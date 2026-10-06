@@ -1,0 +1,59 @@
+======================================================================
+UNSEEN-DAY MODEL TRAINING AND VALIDATION REPORT
+======================================================================
+
+Training strategy:
+Monday + Tuesday + Thursday + Friday
+
+Unseen test:
+Wednesday-workingHours.pcap_ISCX.csv
+
+Training rows: 1963470
+Unseen test rows: 610794
+
+Number of selected features:
+30
+
+Selected features:
+- Fwd_Packet_Length_Max
+- Fwd_Packet_Length_Mean
+- Init_Win_bytes_forward
+- Avg_Fwd_Segment_Size
+- Average_Packet_Size
+- Total_Length_of_Fwd_Packets
+- Max_Packet_Length
+- Packet_Length_Mean
+- Destination_Port
+- Packet_Length_Variance
+- Subflow_Fwd_Bytes
+- Packet_Length_Std
+- Init_Win_bytes_backward
+- Avg_Bwd_Segment_Size
+- Bwd_Packet_Length_Mean
+- Fwd_Packet_Length_Min
+- Fwd_Header_Length
+- Bwd_Packet_Length_Min
+- act_data_pkt_fwd
+- Fwd_Packet_Length_Std
+- Flow_Bytes/s
+- Fwd_Header_Length.1
+- Min_Packet_Length
+- Total_Length_of_Bwd_Packets
+- URG_Flag_Count
+- Fwd_IAT_Mean
+- Bwd_Packet_Length_Max
+- Bwd_Header_Length
+- Subflow_Fwd_Packets
+- Bwd_Packet_Length_Std
+
+Binary Detection Performance:
+--------------------------------------------------
+Accuracy : 0.6878
+Precision: 0.8517
+Recall   : 0.0193
+F1 Score : 0.0377
+ROC-AUC  : 0.9740
+
+Confusion Matrix:
+[[416384    651]
+ [190021   3738]]

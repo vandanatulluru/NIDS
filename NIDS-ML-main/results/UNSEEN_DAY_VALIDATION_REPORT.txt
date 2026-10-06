@@ -1,0 +1,18 @@
+======================================================================
+UNSEEN-DAY VALIDATION REPORT
+======================================================================
+
+Capture: Wednesday-workingHours.pcap_ISCX.csv
+Rows: 610794
+
+Binary Detection Performance
+--------------------------------------------------
+Accuracy : 0.9999
+Precision: 0.9997
+Recall   : 0.9999
+F1 Score : 0.9998
+ROC-AUC  : 1.0000
+
+Confusion Matrix:
+[[416972     63]
+ [    27 193732]]

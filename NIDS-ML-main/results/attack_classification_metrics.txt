@@ -1,0 +1,31 @@
+CIC-IDS2017 MULTICLASS ATTACK CLASSIFIER
+============================================================
+
+Accuracy : 0.998603
+Precision: 0.998737
+Recall   : 0.998603
+F1 Score : 0.998646
+
+Classification Report
+============================================================
+                            precision    recall  f1-score   support
+
+                    BENIGN       1.00      1.00      1.00    419297
+                       Bot       0.69      1.00      0.81       391
+                      DDoS       1.00      1.00      1.00     25603
+             DoS GoldenEye       0.99      0.99      0.99      2057
+                  DoS Hulk       1.00      1.00      1.00     34570
+          DoS Slowhttptest       0.98      0.99      0.99      1046
+             DoS slowloris       1.00      0.99      0.99      1077
+               FTP-Patator       1.00      1.00      1.00      1187
+                Heartbleed       0.67      1.00      0.80         2
+              Infiltration       1.00      0.71      0.83         7
+                  PortScan       0.99      1.00      0.99     18164
+               SSH-Patator       1.00      1.00      1.00       644
+  Web Attack � Brute Force       0.70      0.73      0.72       294
+Web Attack � Sql Injection       0.80      1.00      0.89         4
+          Web Attack � XSS       0.35      0.38      0.37       130
+
+                  accuracy                           1.00    504473
+                 macro avg       0.88      0.92      0.89    504473
+              weighted avg       1.00      1.00      1.00    504473

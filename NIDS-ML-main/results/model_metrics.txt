@@ -1,0 +1,39 @@
+NETWORK INTRUSION DETECTION MODEL RESULTS
+============================================================
+
+Model: Random Forest
+Accuracy: 0.999060
+Precision: 0.995797
+Recall: 0.998650
+F1 Score: 0.997222
+ROC-AUC: 0.999790
+Training Time: 456.67 seconds
+Training Samples: 2017889
+
+Model: XGBoost
+Accuracy: 0.998490
+Precision: 0.996448
+Recall: 0.994599
+F1 Score: 0.995523
+ROC-AUC: 0.999970
+Training Time: 31.27 seconds
+Training Samples: 2017889
+
+Model: SVM
+Accuracy: 0.938338
+Precision: 0.739827
+Recall: 0.979114
+F1 Score: 0.842815
+ROC-AUC: 0.990390
+Training Time: 464.33 seconds
+Training Samples: 100000
+
+Model: Logistic Regression
+Accuracy: 0.913470
+Precision: 0.669563
+Recall: 0.962525
+F1 Score: 0.789751
+ROC-AUC: 0.980209
+Training Time: 23.66 seconds
+Training Samples: 2017889
+
